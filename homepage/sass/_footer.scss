@@ -1,0 +1,18 @@
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: .6rem;
+
+    &__text {
+        text-align: center;
+        margin: .6rem;
+
+        &--1 {
+            font-size: 3rem;
+        }
+    }
+
+    &__logo {
+        margin: 1.5rem;
+    }
+}

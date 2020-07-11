@@ -1,0 +1,18 @@
+{
+  "name": "acmw-homepage",
+  "version": "1.0.0",
+  "description": "Refurbished homepage for the website of ACM-W BITS Pilani chapter",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Dipanshi Bansal",
+  "license": "ISC",
+  "dependencies": {
+    "liveserver": "^0.1.20",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

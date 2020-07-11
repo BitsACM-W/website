@@ -1,0 +1,32 @@
+.header {
+    height: 75vh;
+    background-image: linear-gradient(to right, rgba($carolina-blue, 0.78) 0%, rgba($sky-blue-crayola, 0.78) 20%, rgba($tea-green, 0.78) 50%, rgba(#fff, .78) 80%), url('../assets/header_tiles_background.jpg');
+    background-size: cover;
+    position: relative;
+
+    &__box {
+        width: 30vw;
+        border-radius: 5px;
+        box-shadow: 0 2rem 7rem rgba(#000, .4);
+        padding: 3rem;
+        text-align: center;
+        background-image: linear-gradient(to right bottom, rgba($sky-blue-crayola, 0.78), rgba($tea-green, 0.78));
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        animation-name: moveInUp;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+
+    &__logo {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    &__title {
+        font-size: 5rem;
+        font-weight: 300;
+        margin-bottom: .8rem;
+    }
+}
