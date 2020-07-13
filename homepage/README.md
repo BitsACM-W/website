@@ -21,3 +21,10 @@ $cadet-blue: #38a3a5ff;
 $medium-aquamarine: #57cc99ff;
 $light-green: #80ed99ff;
 $tea-green: #c7f9ccff;
+
+Color schemes from htmlcolor coder:
+  #2980B9
+  #5499C7
+  #3498DB
+  #5499C7
+
