@@ -28,3 +28,4 @@ Color schemes from htmlcolor coder:
   #3498DB
   #5499C7
 
+Possible gradients : linear-gradient(90deg, rgb(17, 21, 126), rgb(216, 25, 230)); 
