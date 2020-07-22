@@ -1,0 +1,188 @@
+body, html {
+    height: 100%;
+}
+.banner {
+  background-image:url("bitspilani.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+.subscribe-text{
+position: absolute;
+width: 427px;
+height: 69px;
+left: 75px;
+top: 55px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+}
+.join-text{
+  position: absolute;
+width: 462px;
+height: 69px;
+left: 75px;
+top: 107px;
+
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+.button{
+  position: absolute;
+width: 199px;
+height: 52px;
+left: 65vw;
+top: 72px;
+display: flex;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+background-color: transparent;
+justify-content: space-around;
+    align-items: center;
+}
+.like-text{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF
+}
+.page-heading{
+  font-family: 'Raleway', sans-serif;
+      font-style: normal;
+      font-weight: bolder;
+      font-size: 36px;
+      line-height: 42px;
+      color: #000000;
+      text-align: center;
+      margin-top: 10px;
+}
+.blue-rectangle{
+  position: absolute;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: 15px;
+}
+}
+.heading-bottom{
+  justify-content: center;
+  display: flex;
+}
+.faq-box{
+  position: absolute;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #919191;
+      margin-top: 80px;
+}
+.cards{
+  display: flex;
+  justify-content:space-around;
+}
+.card-1{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+.github-link{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration: none;
+
+color: #03C4EB;
+}
+.github{
+
+}
+.card-2{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+.linkedin-link{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration: none;
+color: #03C4EB;
+}
+.linkedin{
+
+}
+.card-3{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+.location-link{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+
+  color: #03C4EB;
+}
+.card-4{
+  display: flex;
+  align-items: center;
+padding: 20px;
+
+}
+.instagram-link{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+
+  color: #03C4EB;
+}
+.card-5{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+.gmail-link{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+
+  color: #03C4EB;
+}
+.container{
+  margin-top: 70px;
+margin-left: 232px;
+margin-right: 143px;
+}
