@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-     background-color:   #5499C7 ;
+     background-color:   #363062 ;
      
 }
 /*.navbar{
@@ -23,12 +23,12 @@ body{
     padding: 10px;
 }
 .nav-item:hover{
-    background-color: teal;
+    background-color: #363062;
 }
 #header{
     width: 100%;
     height: 100%;
-    background-image: url("https://i.pinimg.com/originals/5c/f2/66/5cf2660af5f4214def7166dc7a7c8062.jpg");
+    background-image: url("https://lh3.googleusercontent.com/proxy/GByGqVv3N6Ubn4GneWrb7MlCn5kX5Ad8JGop7PRVyNh_kwQ68cVu6yj511GFmJOAxLtJzU6K1fO90UyMH_IJsccFEiGV8ZQ-u9qyc4njijlaJyJGC4uYukBarPElvWpS5B8xOPgw8YeQgd4_kxo-Dw");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -200,11 +200,13 @@ container1 .box .imgBox img{
 }
 .footer{
     height: 40px;
-    background-color: whitesmoke;
+    background-color: #17202A  
+    ;
     float: left;
     width: 100%;
     
 }
 .footer p{
+    color: #fff;
     text-align: center;
 }
