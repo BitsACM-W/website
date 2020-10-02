@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, body {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  padding-top: -15px;
+  background-image: url("wp2.jpg");
+}
+
+.navbar{
+    padding-top: 5px;
+}
+.navbar-brand{
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    padding: 10px;
+    font-size: 15px;
+}
+.nav-item:hover{
+    background-color: teal;
+}
+#header{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: -10px;
+}
+.navbar-head {
+  font-size: 20px;
+  padding-left: 5px;
+}
+.nav-logo{
+  height: 50px;
+  width: 50px;
+}
+.bg{
+  height: 400px;
+  background-color: ;
+  margin-top: -20px;
+}
+.list-group{
+  color: black;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding-top: 75px;
+}
+.list-group-item{
+  color: black;
+}
+.nav-2 {
+  width: 100%;
+  height: 60px;
+  background-color: lightslategrey;
+  margin-top: -10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: inherit;
+}
+li {
+  float: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 769px) {
+  .navbar .link {
+    padding-left: 10px;
+    visibility: visible;
+    width: 100%;
+    font-size: 14px;
+  }
+  .navbar .navbar-brand .link {
+    visibility: hidden;
+  }
+}
+
+.grid{
+  padding-top: 50px;
+  background-color: lavender;
+}
+section .p{
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .card-box-b,
+  .card-box-c,
+  .card-box-d {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid .card-box-b,
+  .grid .card-box-c,
+  .grid .card-box-d {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card-box-b,
+.card-box-d {
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card-box-b .img-b {
+  transition: .8s all ease-in-out;
+}
+
+@media (min-width: 600px) {
+  .card-box-b:hover .img-a,
+  .card-box-b:hover .img-b {
+    transform: scale(1.2);
+  }
+}
+
+.card-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card-shadow {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-shadow:before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
+}
+.img-box-b {
+  height: 260px;
+}
+
+.card-header-b {
+  padding: 1rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .card-header-b {
+    bottom: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-header-b {
+    bottom: 20px;
+  }
+}
+
+.card-header-b .category-b {
+  font-size: .9rem;
+  background-color: white;
+  padding: .3rem .7rem;
+  color: black;
+  letter-spacing: 0.030em;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+
+@media (min-width: 768px) {
+  .card-header-b .title-2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-header-b .title-2 {
+    font-size: 1.6rem;
+  }
+}
+
+.card-header-b .title-2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-header-b .date-b {
+  color: #d8d8d8;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .card-header-b .date-b {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-header-b .date-b {
+    font-size: 1rem;
+  }
+}
+
+.ACM-W{
+  height: 400px;
+  width: 100%;
+  background-color: #c54a80;
+}
+.card{
+  height: 200px;
+  width: 90%;
+}
+.container-fluid2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+}
+.hi{
+  height: 200px;
+  width: 200px;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  border: lightskyblue;
+  background-color: white;
+  color: darkslateblue;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.card-title , .card-text{
+  padding-left: 50px;
+}
+footer{
+  height: 300px;
+  background-color: lightslategray;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
